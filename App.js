@@ -1,20 +1,9 @@
+import { View, Text } from 'react-native'
+import React from 'react'
+import AppNavigator from './src/AppNavigator'
 
-import { StyleSheet, View } from 'react-native';
-import LoginForm from './app/components/LoginForm';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-   
-      <LoginForm/>
-    </View>
-  );
+const App = () => {
+  return <AppNavigator/>
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: 'grey',
-  },
-});
+export default App
