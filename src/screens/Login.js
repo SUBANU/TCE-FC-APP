@@ -24,6 +24,7 @@ const Login=({navigation}) => {
         if (email === data.email && password === data.password) {
           loginSuccessful = true;
           console.log("Login successful");
+          
           navigation.navigate('Dashboard')
           // You can perform further actions here, such as navigating to a different screen.
           return; // Exit the loop once a match is found.

@@ -75,7 +75,7 @@ const Dashboard = () => {
           }}
         >
           <Image
-            source={require("../images/notification.png.png")}
+            source={require("../images/notification.png")}
             style={[styles.bottomTabImg,{tintColor:selectedTab==4?'red':'black'}]}
           />
         </TouchableOpacity>
